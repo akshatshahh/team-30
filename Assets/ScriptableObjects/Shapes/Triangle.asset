@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32787ee3720244f9490a6c9c88182f65, type: 3}
+  m_Name: Triangle
+  m_EditorClassIdentifier: 
+  shapeName: Triangle
+  sprite: {fileID: 7482667652216324306, guid: 484279d99ca894b3598189d2a4d4d73c, type: 3}
+  localScale: {x: 1, y: 1.2, z: 1}
+  colliderSize: {x: 0.9, y: 1}
+  colliderOffset: {x: 0, y: 0}
+  moveSpeed: 7.5
+  airControlMultiplier: 0.6
+  jumpVelocity: 9.5
+  gravityScale: 3.5
+  flightImpulse: 14
+  sustainSeconds: 0.6
+  liftCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2408638
+      value: 0.85232747
+      inSlope: -1.1017739
+      outSlope: -1.1017739
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4344818
+      value: 0.5978768
+      inSlope: -1.4462086
+      outSlope: -1.4462086
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSpeed: 14
+  bulletSprite: {fileID: 7482667652216324306, guid: 484279d99ca894b3598189d2a4d4d73c, type: 3}
+  bulletStraightSpeed: 12
+  bulletLaunchSpeed: 12
+  bulletLifetime: 3
+  bulletZeroGravityDuringStraight: 1
+  flightPath: 2
+  straightSpeed: 12
+  launchSpeed: 10
+  launchAngleDegrees: 60
+  zeroGravityDuringStraight: 1

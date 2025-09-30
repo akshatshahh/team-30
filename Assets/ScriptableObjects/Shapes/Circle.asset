@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32787ee3720244f9490a6c9c88182f65, type: 3}
+  m_Name: Circle
+  m_EditorClassIdentifier: 
+  shapeName: Triangle
+  sprite: {fileID: -2413806693520163455, guid: e08f76df542f74fcb89ef02500cb78fe, type: 3}
+  localScale: {x: 0.9, y: 0.9, z: 1}
+  colliderSize: {x: 0.85, y: 0.85}
+  colliderOffset: {x: 0, y: 0}
+  moveSpeed: 6
+  airControlMultiplier: 0.8
+  jumpVelocity: 9
+  gravityScale: 2.5
+  flightImpulse: 9
+  sustainSeconds: 1.2
+  liftCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.9009444
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25747088
+      value: 0.75444967
+      inSlope: -1.0224341
+      outSlope: -1.0224341
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.31073898
+      value: 0.90633506
+      inSlope: -1.1507955
+      outSlope: -1.1507955
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6710211
+      value: 0.32786578
+      inSlope: -1.6562872
+      outSlope: -1.6562872
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8035143
+      value: 0.5078994
+      inSlope: -1.3538456
+      outSlope: -1.3538456
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9958334
+      value: 0.21226415
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSpeed: 12
+  bulletSprite: {fileID: -2413806693520163455, guid: e08f76df542f74fcb89ef02500cb78fe, type: 3}
+  bulletStraightSpeed: 12
+  bulletLaunchSpeed: 12
+  bulletLifetime: 3
+  bulletZeroGravityDuringStraight: 1
+  flightPath: 1
+  straightSpeed: 10
+  launchSpeed: 10
+  launchAngleDegrees: 60
+  zeroGravityDuringStraight: 1

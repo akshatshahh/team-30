@@ -1,0 +1,11 @@
+<!-- WinOverlay.uxml -->
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="WinOverlay.uss" />
+  <ui:VisualElement name="winRoot" class="overlay" picking-mode="Ignore">
+    <ui:VisualElement name="row" class="row">
+      <ui:Label name="winText" class="win-label" text="CONGRATULATIONS! You won the game" />
+      <ui:Image name="emoji" class="emoji" />   <!-- we'll set its sprite in code -->
+    </ui:VisualElement>
+    <ui:Label name="subText" class="sub-label" text="Press R to restart" />
+  </ui:VisualElement>
+</ui:UXML>
