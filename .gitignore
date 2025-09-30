@@ -1,3 +1,4 @@
+# Unity generated files
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,6 +6,8 @@
 [Ll]ogs/
 [Uu]serSettings/
 MemoryCaptures/
+
+# Project files
 *.csproj
 *.unityproj
 *.sln
@@ -18,3 +21,6 @@ MemoryCaptures/
 *.mdb
 *.opendb
 *.VC.db
+
+# Make sure docs folder is included for GitHub Pages
+!docs/
